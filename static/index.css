@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+#name {
+    font: bold;
+    font-size: 50px;
+    float: right;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+#profile {
+    margin-right: 600px;
+}
+
+#about {
+    position: absolute;
+    max-width: 300px;
+    margin-left: 1000px;
+    float: right;
+    border: 3px solid;
+    padding: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#learn {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 600px;
+    max-width: 300px;
+    float: left;
+    border: 3px solid;
+    padding: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#hobby {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 500px;
+    max-width: 300px;
+    float: right;
+    border: 3px solid;
+    padding: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#fact {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    max-width: 300px;
+    float: left;
+    border: 3px solid;
+    padding: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#innovation {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1000px;
+    max-width: 300px;
+    float: left;
+    border: 3px solid;
+    padding: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+#list {
+    list-style-type: square;
+}
